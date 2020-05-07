@@ -1,0 +1,23 @@
+.o-uao-repository-general-card .o-uao-repository-link{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+    width: 397px;
+    height: 271px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    
+    padding: 0.5em;
+    margin: 1em;
+    position: relative;
+    text-decoration: none;
+}
+
+.o-uao-repository-general-card:hover{
+    filter: brightness(85%);
+    transition: 0.3s;
+}

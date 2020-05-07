@@ -1,0 +1,13 @@
+.o-uao-repository-category-description{
+    position: relative;
+    z-index: 1;
+
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 18px;
+    top: -2em;
+    color: white;
+}
