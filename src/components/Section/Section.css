@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+}
+
+.o-uao-repository-header-section{
+    background: #000;
+    width: 100%;
+    height: 40rem;
+    clip-path: ellipse(70% 95% at 50% 0);
+  
+}
+
+.o-uao-repository-container{
+   display: flex;
+   width: 100%;
+}
+
+
+.o-uao-repository-info-button{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    width: 40%;
+    margin: 0 auto;
+    height: auto;
+    top: 20%;
+    position: absolute;
+    left: 10%;
+
+    
+}
+
+.o-uao-repository-header-section-image{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    text-align: left;
+}
+
+
+
+.o-uao-repository-header-section-image img{
+    display: block;
+}
+
+.o-uao-repository-header-section-image .static{
+    width: 100%;
+    height: auto;
+}
+
+.o-uao-repository-header-section-image .logo-uao{
+  position: absolute;
+  top: 25%;
+  left: 55%;
+  width: 45%;
+  height: auto;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .o-uao-repository-header-section{
+        height: 40rem;
+        clip-path: ellipse(70% 55% at 50% 0);
+    }
+
+    .o-uao-repository-header-section-image{
+        visibility: hidden;
+    }
+
+    .o-uao-repository-info-button{
+        width: 100%;
+        left: 0%;
+        top: 2%;
+        margin: 0;
+        display: flex;
+        align-items: center;    
+        justify-content: center;
+       
+    }
+
+    .o-uao-repository-info-button p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+ 
+  
+
+  
+    
+}
+
+
+
+

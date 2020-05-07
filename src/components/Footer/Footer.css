@@ -1,0 +1,117 @@
+footer{
+    padding: 50px;
+    background-color: #fff;
+}
+
+footer .o-uao-footer-logo-left{
+    width: 49%;
+    float: left;
+}
+
+footer .o-uao-footer-options-right{
+    width: 49%;
+    float: right;
+    text-align: right;
+}
+
+
+footer .o-uao-footer-logo-left .o-uao-footer-logos-1{
+    background-image: url(https://uaovirtual.edu.co/wp-content/themes/uao_virtual/assets/img/logos/logos-1.png);
+}
+
+footer .o-uao-footer-logo-left .uao-footer-divisor{
+    width: 1px;
+    height: 40px;
+    margin: 0 20px;
+}
+
+footer .o-uao-footer-logo-left .o-uao-footer-logos-2{
+    background-image: url(https://uaovirtual.edu.co/wp-content/themes/uao_virtual/assets/img/logos/logo-2.png)
+}
+
+footer .o-uao-footer-options-right .o-uao-links{
+    margin-bottom: 30px;
+}
+
+footer .o-uao-footer-options-right .o-uao-links>*{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer .o-uao-footer-options-right .o-uao-links p{
+    font-weight: 600;
+    font-weight: #000;
+}
+
+.uao-footer-right-divisor{
+    width: 1px;
+    height: 20px;
+    margin: 0 20px;
+}
+
+footer .o-uao-footer-options-right .uao-networks a{
+    display: inline-block;
+}
+
+.uao-facebook{
+    content: url(https://uaovirtual.edu.co/wp-content/themes/uao_virtual/assets/img/icons/facebook.png);
+}
+
+.uao-twitter{
+content: url(https://uaovirtual.edu.co/wp-content/themes/uao_virtual/assets/img/icons/twitter.png);
+}
+
+.uao-youtube{
+content: url(https://uaovirtual.edu.co/wp-content/themes/uao_virtual/assets/img/icons/youtube.png);
+}
+
+footer .top-space{
+    padding-top: 40px;
+}
+
+footer .legal-text{
+    clear: both;
+}
+
+footer .block{
+    width: calc(100%-700px);
+}
+body a {
+    border: 0;
+    text-decoration: none;
+}
+
+footer .bottom-info .left-text{
+    display: inline-block;
+}
+
+footer .legal-text p{
+    color: #767676;
+    font-size: 12px;
+}
+
+footer .legal-text p strong{
+    font-weight: 600;
+}
+
+footer .bottom-info .data{
+    float: right;
+    width: 650px;
+    text-align: right;
+}
+
+footer .bottom-info .data .subtitle{
+    position: absolute;
+    top: -30px;
+    left: 0;
+}
+
+footer .bottom-info .data>div{
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+footer .bottom-info .data>div:not(:first-child){
+    margin-left: 50px;
+}
