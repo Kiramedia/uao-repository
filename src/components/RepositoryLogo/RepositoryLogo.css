@@ -1,0 +1,11 @@
+.o-uao-repository-logo{
+    height: 2rem;
+    width: auto;
+}
+
+@media only screen and (max-width: 900px) {
+    .o-uao-repository-logo{
+        height: 2.5rem;
+        content: url('../../resources/img/logo-repository-responsive.png');
+    }
+}

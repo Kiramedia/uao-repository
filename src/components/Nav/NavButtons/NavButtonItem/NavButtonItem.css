@@ -1,0 +1,21 @@
+a{
+    text-decoration: none;
+}
+
+.o-uao-repository-nav-button-item{
+    border: 1px solid #A70006;
+    padding: .5rem .7rem;
+    border-radius: .5rem;
+    transition: all .2s;
+}
+
+.o-uao-repository-nav-button-item:hover{
+    background: #A70006;
+}
+
+.o-uao-repository-nav-button-item h1{
+    margin: 0;
+    font-size: .8rem;
+    color: white;
+    font-weight: 600;
+}

@@ -1,0 +1,75 @@
+
+.o-uao-repository-search{
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.o-search-input{
+    height: 2rem;
+    width: 15rem;
+    padding: 0 .5rem;
+    border: none;
+    border-radius: .5rem 0 0 .5rem;
+    background: #333333;
+    color: white;
+    transition: all .3s;
+}
+
+.o-search-input[type=text]:focus,
+.o-search-input[type=text]:valid{
+    outline: none;
+    width: 25rem;
+    background: #404040;
+}
+
+.o-search-button{
+    height: 2rem;
+    width: 3rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0 .5rem .5rem 0;
+    background: #A70006;
+    transition: all .2s;
+    outline: none;
+}
+
+.o-search-button:hover{
+    background: #8C0005;
+}
+
+.o-search-button img{
+    filter: brightness(0) invert(1);
+    height: 60%;
+    width: auto;
+}
+
+@media only screen and (max-width: 900px) {
+    .o-search-input{
+        width: 10rem;
+    }
+    
+    .o-search-input[type=text]:focus,
+    .o-search-input[type=text]:valid{
+        width: 15rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .o-search-input{
+        width: 4rem;
+    }
+    
+    .o-search-input[type=text]:focus,
+    .o-search-input[type=text]:valid{
+        width: 5rem;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .o-uao-repository-search{
+        display: none;
+    }
+}
+
+
