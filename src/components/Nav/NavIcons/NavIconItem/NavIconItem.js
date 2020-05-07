@@ -1,10 +1,11 @@
 import React from "react";
 import "./NavIconItem.css";
+import { Link } from "react-router-dom";
 
-const NavIconItem = ({ srcIcon, height }) => {
+const NavIconItem = ({ srcIcon, height, link }) => {
     return (
         <div className="o-uao-repository-nav-icons-item">
-            <a href=""><img src={srcIcon} alt="" height={height}/></a>
+            <Link to={link}><img src={srcIcon} alt="" height={height}/></Link>
         </div>
     );
 };

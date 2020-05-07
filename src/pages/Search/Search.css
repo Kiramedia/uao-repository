@@ -1,0 +1,15 @@
+.search .o-uao-repository-title{
+    text-align: left;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.o-uao-repository-search-container{
+    display: flex;
+    flex-flow: wrap;
+}
+
+.o-uao-repository-search-container .o-uao-repository-cards-section{
+    max-width: 70%;
+    margin: 0 auto;
+}

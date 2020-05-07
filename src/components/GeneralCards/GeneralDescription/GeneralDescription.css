@@ -1,8 +1,7 @@
 .o-uao-repository-description{
     position: relative;
     z-index: 1;
-    width: 377px;
-
+    padding: 0 .5rem;
     text-decoration: none;
     font-family: Roboto;
     font-style: normal;
@@ -10,6 +9,5 @@
     font-size: 13px;
     line-height: 18px;
     text-align: left;
-    top: 6.2em;
     color: black;
 }

@@ -1,18 +1,17 @@
-.o-uao-repository-title{
+.o-uao-repository-subtitle{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    text-align: center;
+    font-size: 18px;
     letter-spacing: 0.18em;
     color: #4F4E56;
-    margin: 3rem;
+    margin: 1rem 3rem 3rem 3rem;
 }
  
 @media (min-width: 450px) and (max-width: 540px){
 
-    .o-uao-repository-title{
-        font-size: 24px;
+    .o-uao-repository-subtitle{
+        font-size: 16px;
         margin: 4rem;
     }
 

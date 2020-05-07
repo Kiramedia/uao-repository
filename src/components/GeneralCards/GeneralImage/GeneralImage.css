@@ -1,9 +1,11 @@
 .o-uao-repository-image-card{
-    position: absolute;
     width: 100%;
-    height: 80%;
-    top: 0;
-    left: 0;
+    height: 60%;
+    overflow: hidden;
     filter: brightness(75%);
     border-radius: 8px 8px 0px 0px;
+}
+
+.o-uao-repository-image{
+    width: 100%;
 }

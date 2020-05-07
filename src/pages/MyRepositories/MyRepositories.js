@@ -1,11 +1,12 @@
 import React from "react";
-import "./Search.css";
+import "./MyRepositories.css";
 import { withRouter } from 'react-router-dom';
 import Title from '../../components/Title/Title';
 import SubTitle from "../../components/SubTitle/Subtitle";
 import MenuFilter from "../../components/MenuFilter/MenuFilter";
 import FilterSection from "../../components/FilterSection/FilterSection";
 import SearchCards from "../../components/SearchCards/SearchCards";
+import Searcher from "../../components/Searcher/Searcher";
 
 const data = { check: [{ id: 1, label: "Proyectos", name: "categorias" }, { id: 2, label: "Investigación", name: "categorias" }, { id: 3, label: "Actividades", name: "categorias" }] }
 const data1 = {
@@ -15,7 +16,7 @@ const data1 = {
 }
 const data2 = { radio: [{ id: 1, label: "Categoría", name: "orden" }, { id: 2, label: "Fecha", name: "orden" }, { id: 3, label: "Nombre", name: "orden" }, { id: 4, label: "Cantidad participantes", name: "orden" }] }
 
-class Search extends React.Component {
+class MyRepositories extends React.Component {
 
     constructor(props) {
         super(props);
@@ -25,11 +26,11 @@ class Search extends React.Component {
     render() {
 
         return (
-            <div className="o-uao-repository-content search">
-                <Title uaoRepositoryTitle="Búsqueda General" />
-                <SubTitle text={`Resultados de: ${this.state.search}`} />
+            <div className="o-uao-repository-content myrepositories">
+                <Title uaoRepositoryTitle="Mis repositorios" />
                 <div className="o-uao-repository-search-container">
                     <FilterSection>
+                        <Searcher/>
                         <MenuFilter check={data2} title="Ordenar" />
                         <MenuFilter radio={data} title="Categorías" />
                         <MenuFilter radio={data1} title="Materias por semestre" />
@@ -41,4 +42,4 @@ class Search extends React.Component {
     };
 }
 
-export default withRouter(Search);
+export default withRouter(MyRepositories);
