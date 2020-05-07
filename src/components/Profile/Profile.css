@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.o-uao-profile-container{
+   display: flex;  
+   margin: 100px 50px 100px 50px;
+   background-color: #fff;
+}
+
+.o-profile-pic{
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+
+}
+
+.o-uao-profile-side-profile {
+    flex: 1;
+    max-width: 20rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0 2rem 0;
+
+}
+
+.o-uao-profile-description{
+    display: flex;
+    
+}
+
+.o-uao-profile-networks{
+    text-align: center;
+}
+
+.o-uao-profile-networks a{
+    display: inline-block;
+    margin-right: 2rem;
+    
+}
+
+
+.uao-profile-info{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px 10px 20px 10px;
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+.o-uao-profile-big-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.o-uao-big-container-repositorys-featured {
+    flex: 1;         
+    max-width: 50rem;
+}
+
+.o-uao-big-container-latest-repositorys{
+    flex: 1;         
+    max-width: 50rem;
+}
+
+.uao-facebook{
+    content: url(https://uaovirtual.edu.co/wp-content/themes/uao_virtual/assets/img/icons/facebook.png);
+}
+
+.uao-twitter{
+content: url(https://uaovirtual.edu.co/wp-content/themes/uao_virtual/assets/img/icons/twitter.png);
+}
+
+.uao-youtube{
+content: url(https://uaovirtual.edu.co/wp-content/themes/uao_virtual/assets/img/icons/youtube.png);
+}
+
+
+  @media (max-width:768px) {
+    body {
+        display: flex;
+    }
+
+    .o-uao-profile-container {
+        flex-direction: column;
+    }
+
+    .o-uao-profile-side-profile{
+        min-width: 100%;
+    }
+}
+
+
