@@ -15,7 +15,7 @@ class Header extends React.Component {
     render() {
         return (<div className="o-uao-repository-header">
             <div className="o-uao-repository-header-left">
-                <Link to="/home"><RepositoryLogo srcLogo={this.srcLogo} /></Link> />
+                <Link to="/home"><RepositoryLogo srcLogo={this.srcLogo} /></Link>
                 <Searcher />
             </div>
             <div className="o-uao-repository-header-right">

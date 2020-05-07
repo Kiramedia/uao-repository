@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+.o-paragraph{
+    font-size: 15px;
+    width: 90%;
+    display: table;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 900px) {
+    .o-paragraph{
+        padding: 1px;
+        width: 100%;
+    }
+    
+    .o-paragraph p{
+       text-align: center;
+       vertical-align: middle;
+    }
+}

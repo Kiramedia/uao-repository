@@ -1,0 +1,15 @@
+.o-uao-title-container .o-uao-title-name{
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 800;
+    font-family: Roboto;
+}
+
+@media only screen and (max-width: 900px) {
+    .o-uao-title-container .o-uao-title-name{
+        font-size: 1.0rem;
+        font-weight: 700;
+        text-align: center;
+    }
+}
+

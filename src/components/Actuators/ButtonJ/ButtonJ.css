@@ -1,0 +1,23 @@
+.o-button-J{
+    background: black;
+    border: none;
+    font-weight: 800;
+    font-size: 0.9rem;
+    color: #fff;
+    cursor: pointer;
+    border-bottom: 1px solid #505050;
+    padding: 0 40px 15px;
+    transition: all .2s;
+}
+
+.o-button-J:hover{
+    border-bottom: 1px solid #ff0028;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .o-button-J{
+        font-size: 0.8rem;
+        padding: 0 30px 8px;
+    }
+}

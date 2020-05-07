@@ -1,0 +1,41 @@
+.o-uao-repository-category-card .o-uao-repository-category-link{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+    width: 239px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    
+    padding: 0.5em;
+    margin: 1em;
+    position: relative;
+    text-decoration: none;
+
+}
+
+.o-uao-repository-category-description{
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.o-uao-repository-category-card:hover .o-uao-repository-category-description{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.o-uao-repository-category-card:hover .o-uao-repository-category-title{
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.o-uao-repository-category-card:hover .o-uao-repository-image-category-card{
+    filter: brightness(45%);
+    transition: 0.3s;
+}

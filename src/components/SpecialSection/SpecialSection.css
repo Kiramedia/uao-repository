@@ -1,0 +1,57 @@
+.o-uao-repository-special-section-container{
+    margin: 10rem 0 0 0;
+    background: #ED1D24;
+    z-index: 1;
+    width: 100%;
+    height: 40rem;
+    clip-path: ellipse(63% 50% at 43% 50%);
+}
+
+.o-uao-repository-special-section{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 95%;
+    background: black;
+    clip-path: ellipse(63% 50% at 43% 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.o-special-section-img{
+    height: 40%;
+}
+
+.o-special-section-info{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .o-uao-repository-special-section-container{
+        height: 30rem;
+    }
+
+    .o-paragraph p{
+        text-align: justify;
+        vertical-align: auto;
+     }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .o-uao-repository-special-section-container{
+        height: 25rem;
+    }
+
+    .o-special-section-img{
+        display: none;
+    }
+
+    .o-special-section-info {
+        width: 90%;
+    }
+}
