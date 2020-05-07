@@ -67,11 +67,19 @@ img{
 .o-uao-big-container-repositorys-featured {
     flex: 1;         
     max-width: 50rem;
+    display: flex;
+    flex-direction: row;
 }
 
 .o-uao-big-container-latest-repositorys{
     flex: 1;         
     max-width: 50rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.o-uao-profile-big-container h1{
+    font-weight: 400;
 }
 
 .uao-facebook{
@@ -99,6 +107,17 @@ content: url(https://uaovirtual.edu.co/wp-content/themes/uao_virtual/assets/img/
     .o-uao-profile-side-profile{
         min-width: 100%;
     }
+
+    .o-uao-big-container-repositorys-featured{
+        flex-direction: column;
+    }
+
+    .o-uao-big-container-latest-repositorys{
+        flex-direction: column;
+
+    }
+        
+    
 }
 
 

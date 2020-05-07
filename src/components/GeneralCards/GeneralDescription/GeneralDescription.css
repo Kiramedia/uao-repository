@@ -1,0 +1,14 @@
+.o-uao-repository-description{
+    position: relative;
+    z-index: 1;
+    width: 377px;
+
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: left;
+    top: 6.2em;
+    color: black;
+}
