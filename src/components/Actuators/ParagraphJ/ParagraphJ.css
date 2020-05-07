@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+.o-paragraph{
+    font-size: 15px;
+    color: #fff;
+    display: table;
+    text-align: left;
+   
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .o-paragraph{
+        padding: 1px;
+
+    }
+    
+    .o-paragraph p{
+       text-align: center;
+       vertical-align: middle;
+     
+    }
+}

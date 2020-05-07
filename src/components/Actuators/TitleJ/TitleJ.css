@@ -1,0 +1,15 @@
+.o-uao-title-container .o-uao-title-name{
+    color: #fff;
+    font-size: 33px;
+    font-weight: 800;
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .o-uao-title-container .o-uao-title-name{
+        font-size: 22px;
+        font-weight: 700;
+        text-align: center;
+    }
+}
+

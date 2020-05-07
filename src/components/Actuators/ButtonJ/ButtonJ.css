@@ -1,0 +1,24 @@
+.o-button-J{
+    background: black;
+    border: none;
+    font-weight: 800;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    border-bottom: 1px solid #505050;
+    padding: 0 40px 15px;
+
+
+}
+
+.o-button-J:hover{
+    border-bottom: 1px solid #ff0028;
+}
+
+
+@media (min-width: 360px) and (max-width: 767px) {
+    .o-button-J{
+        font-size: 15px;
+        padding: 0 30px 8px;
+    }
+}
