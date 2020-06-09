@@ -4,8 +4,6 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 
 function App({ children }) {
-  console.log(window.$sessionState);
-
   return (
     <div className="o-uao-multimedia-repository">
       <div className="o-uao-mutimedia-repository-top">

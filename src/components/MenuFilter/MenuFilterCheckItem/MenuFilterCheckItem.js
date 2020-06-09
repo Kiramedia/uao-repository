@@ -9,7 +9,7 @@ const MenuFilterCheckItem = ({label, name}) => {
             <label>
                 {label}
                 <input id="checkbox" type="checkbox" name={name} value={label} />
-                <span class="checkmark"></span>
+                <span className="checkmark"></span>
                 
             </label>
         </div>

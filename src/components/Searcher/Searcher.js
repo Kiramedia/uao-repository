@@ -12,7 +12,7 @@ class Searcher extends React.Component {
         return (
             <div className="o-uao-repository-search-container">
                 <form className="o-uao-repository-search" onSubmit={this.handleOnClick}>
-                    <input className="o-search-input" type="text" name="query" placeholder="Buscar.." autoComplete="off" required/>
+                    <input className="o-search-input" type="text" name="query" placeholder="Buscar..." autoComplete="off" required/>
                     <button className="o-search-button" type="submit"><img src={require('../../resources/img/search_black.png')} alt=""/></button>
                 </form>
                 {this.redirect()}

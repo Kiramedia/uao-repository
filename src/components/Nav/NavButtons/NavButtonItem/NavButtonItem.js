@@ -17,7 +17,6 @@ const NavButtonItem = ({ linkButton, text }) => {
 
 const changeState = () =>{
     
-    console.log("Hola");
 }
 
 export default NavButtonItem;

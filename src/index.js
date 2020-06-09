@@ -7,8 +7,6 @@ import './index.css';
 //Routes
 import Routes from './routes';
 
-window.$sessionState = false;
-
 render(
   <Router>
     <Routes/>

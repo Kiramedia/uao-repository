@@ -24,3 +24,8 @@
     color: #A70006;
 }
 
+.o-uao-repository-radio{
+    display: flex;
+    flex-direction: column;
+}
+

@@ -5,6 +5,7 @@
     height: 2rem;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .o-uao-repository-nav-icons-item a{

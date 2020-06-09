@@ -1,17 +1,14 @@
 import React from "react";
 import "./MenuFilter.css";
 import MenuFilterCheckItem from './MenuFilterCheckItem/MenuFilterCheckItem';
-import MenuFilterRadioItem from './MenuFilterRadioItem/MenuFilterRadioItem';
 
 class MenuFilter extends React.Component {
 
     constructor(props) {
         super(props);
         if (props.check) {
-            console.log("hye");
             this.state = props.check;
         } else {
-            console.log("hey");
             this.state = props.radio;
         }
         this.title = props.title;
@@ -22,19 +19,18 @@ class MenuFilter extends React.Component {
     showMenu(event) {
         event.preventDefault();
 
-        if(this.state.showMenu){
+        if (this.state.showMenu) {
             this.setState({ showMenu: false });
-        }else{
+        } else {
             this.setState({ showMenu: true });
         }
     }
 
     render() {
-
         return (
             <div className="o-uao-repository-filter">
                 <button onClick={this.showMenu}>
-                    {this.title} <span>{this.state.showMenu ? ("▲"):("▼")}</span>
+                    {this.title} <span>{this.state.showMenu ? ("▲") : ("▼")}</span>
                 </button>
 
                 {
@@ -55,20 +51,40 @@ class MenuFilter extends React.Component {
             return this.state.check.map((checkItemData) => {
                 return (
                     <MenuFilterCheckItem label={checkItemData.label}
-                    name={checkItemData.name}
-                    key={checkItemData.id}  />
+                        name={checkItemData.name}
+                        key={checkItemData.id} />
                 )
             });
         } else {
-            console.log(this.state.radio);
-            return this.state.radio.map((radioItemData) => {
-                return (
-                    <MenuFilterRadioItem label={radioItemData.label}
-                        name={radioItemData.name}
-                        key={radioItemData.id} />
-                )
-            });
+
+            return (<div className="o-uao-repository-radio">
+                <label>
+                    <input id="radio" type="radio" name="orden" value="Categoria" onChange={this.onHandleChange} defaultChecked />
+                    <span className="checkmark"></span>
+                Categoría
+            </label>
+                <label>
+                    <input id="radio" type="radio" name="orden" value="Fecha" onChange={this.onHandleChange} />
+                    <span className="checkmark"></span>
+                Fecha
+            </label>
+                <label>
+                    <input id="radio" type="radio" name="orden" value="Nombre" onChange={this.onHandleChange} />
+                    <span className="checkmark"></span>
+                Nombre
+            </label>
+                <label>
+                    <input id="radio" type="radio" name="orden" value="Cantidad" onChange={this.onHandleChange} />
+                    <span className="checkmark"></span>
+                Cantidad participantes
+            </label>
+            </div>);
         }
+    }
+
+    onHandleChange = (e) => {
+        this.props.parentCallback(e.target.value);
+        this.setState({ value: e.target.value });
     }
 }
 

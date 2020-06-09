@@ -1,0 +1,208 @@
+.repository{
+    padding: 9rem 4rem 4rem 4rem;
+}
+
+.repository html {
+    font: 400 16px/24px Roboto,sans-serif;
+ }
+
+ /* CSS para ajustar la página de los tabs centrada vertical y horizontalmente. */
+
+ .tabs{
+    max-width: 90rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1em;
+ }
+
+.tabs input[type=radio] {
+  display: none; 
+  
+}
+
+
+/* CSS que sombrea el tab por el cual el cursor está pasando */
+
+.tabs label {
+  display: inline-block;
+  cursor: pointer;
+  color: #575773;
+  width: 20%;
+  height: 3em;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background: #FCFCFC;
+  text-align: center;
+  line-height: 3em; 
+}
+.tabs label:last-of-type {
+  border-bottom: none; 
+}
+
+
+/* Media Querys que ajustan el tamaño de las etiquetas de los tabs, hasta dejar
+la última en un tamaño de 600px y ajustar los tabs una encima de otra */
+
+@media screen and (max-width: 1600px) {
+.tabs label {
+  width: 8%; } 
+}
+@media screen and (max-width: 900px) {
+.tabs label {
+  width: 16%; 
+  } 
+}
+@media screen and (max-width: 600px) {
+.tabs label {
+  width: 100%;
+  display: block;
+  border-bottom: 2px solid #C7C6C4;
+  border-radius: 0; 
+} 
+}
+@media screen and (max-width: 600px) {
+.tabs {
+  margin: 0; 
+} 
+}
+
+#tab1:checked + label, #tab2:checked + label, #tab3:checked + label, #tab4:checked + label {
+    color:#575773;
+    font-weight: bold;
+    border-top: #ae002d 1px solid; 
+}
+
+.tab-content {
+  position: absolute;
+  top: -9999px;
+  padding: 10px; 
+}
+
+.tab-content-wrapper{
+  background: #E5E5E5;
+  border-top: #ae002d 1px solid;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-right-radius: 3px;
+  
+}
+@media screen and (max-width: 600px) {
+.tab-content-wrapper, .tab1-content-wrapper {
+  border: none;
+  border-radius: 0; 
+} 
+}
+
+#tab1:checked ~ .tab-content-wrapper #tab-content-1, #tab2:checked ~ .tab-content-wrapper #tab-content-2, #tab3:checked ~ .tab-content-wrapper #tab-content-3, #tab4:checked ~ .tab-content-wrapper #tab-content-4 {
+  position: relative;
+  top: 0px;
+ }
+
+ /* CSS que le da los atributos de color, espaciado y margen al título changelog del tab changelog */
+
+
+ .changelog {
+     background-color: #fff;
+     border-radius: 4px;
+     box-shadow: 0 1px 8px 0 rgba(0,0,0,.2), 0 3px 4px 0 rgba(0,0,0,.14), 0 3px 3px -2px rgba(0,0,0,.12);
+     color: #757575;
+     padding: 3rem;
+     position: relative;
+     z-index: 1;
+ }
+ 
+ .changelog page-title {
+     margin-top: 0;
+ }
+ 
+ /* CSS que ajusta el color de todos los H1 usados dentro del div changelog */
+
+ .changelog h1 {
+     color: #ae002d;
+     font-size: 18px;
+     font-weight: 300;
+     line-height: 40px;
+     margin-bottom: 10px;
+ }
+
+  /* CSS que ajusta el color de todos los H2 usados dentro del div changelog */
+ 
+ .changelog h2 {
+     border-color: #CFD8DC;
+     color: #424242;
+     font-size: 32px;
+     font-weight: 300;
+     line-height: 40px;
+     margin-bottom: 10px;
+     padding-bottom: 10px;
+ }
+ 
+ .repository h1, h2, h3 {
+     overflow: hidden;
+     padding: 0;
+     text-overflow: ellipsis;
+ }
+ 
+ .repository h1 {
+     font: 400 32px/40px Google Sans,sans-serif;
+     letter-spacing: 0;
+     margin: 12px 0 10px;
+ }
+ 
+ .repository h2 {
+     border-bottom: 0;
+     font: 400 22px/30px Google Sans,sans-serif;
+     margin: 48px 0 24px;
+     padding-bottom: 0;
+     letter-spacing: -.01em;
+ }
+ 
+
+ .repository h3 {
+       font: 400 18px/30px Google Sans,sans-serif;
+       margin: 32px 0 16px;
+ }
+ 
+ .repository p {
+     margin: 16px 0;
+     padding: 0;
+ }
+ 
+ .repository code, pre, .pre-style {
+     background: #f7f7f7;
+     color: #37474f;
+     font: 400 100%/1 Roboto Mono,monospace;
+     padding: 1px 4px;
+     font: 500 90%/1 Roboto Mono,monospace;
+     word-break: break-word;
+ }
+ 
+ .bold{
+     font-weight: 700;
+ }
+
+.repository button{
+    border: 1px solid #A70006;
+    padding: .5rem .7rem;
+    border-radius: .5rem;
+    transition: all .2s;
+    background: none;
+}
+
+.repository button:hover{
+    background: #A70006;
+    color: white;
+}
+
+.repository button a{
+  color: black;
+}
+
+.repository button a:hover{
+  color: white;
+}
+
+.tab-content img{
+    height: 20rem;
+    margin-right: 1rem;
+}

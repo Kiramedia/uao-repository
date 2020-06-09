@@ -9,10 +9,6 @@ const data = "Un lugar para subir, guardar y ver proyectos estudiantiles, trabaj
 
 class Home extends React.Component {
 
-    constructor(props) {
-        super(props);
-    };
-
     render() {
         return (
             <div className="o-uao-repository-content">

@@ -6,26 +6,26 @@ import CategoryImage from './CategoryImage/CategoryImage';
 import CategoryDescription from './CategoryDescription/CategoryDescription';
 
 
-const CategoryCards = ({src, uaoRepositoryCategoryTitle, uaoRepositoryCategoryDescription, ruta}) => {
+const CategoryCards = ({ src, uaoRepositoryCategoryTitle, uaoRepositoryCategoryDescription, link }) => {
 
     return (
         <div className="o-uao-repository-category-card">
 
-                <Link to={ruta} className="o-uao-repository-category-link">
-               
+            <Link to={link} className="o-uao-repository-category-link">
+
                 <div className="o-uao-repository-category-title">
-                    <CategoryTitle uaoRepositoryCategoryTitle ={uaoRepositoryCategoryTitle}/>
+                    <CategoryTitle uaoRepositoryCategoryTitle={uaoRepositoryCategoryTitle} />
                 </div>
 
                 <div className="o-uao-repository-image-category-card">
-                    <CategoryImage src = {src} />
-                </div>        
-
-                <div className="o-uao-repository-category-description">
-                    <CategoryDescription uaoRepositoryCategoryDescription ={uaoRepositoryCategoryDescription}/>
+                    <CategoryImage src={src} />
                 </div>
 
-                </Link>
+                <div className="o-uao-repository-category-description">
+                    <CategoryDescription uaoRepositoryCategoryDescription={uaoRepositoryCategoryDescription} />
+                </div>
+
+            </Link>
 
         </div>
     );
