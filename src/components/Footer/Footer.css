@@ -77,9 +77,6 @@ footer .legal-text{
     clear: both;
 }
 
-footer .block{
-    width: calc(100%-700px);
-}
 body a {
     border: 0;
     text-decoration: none;
