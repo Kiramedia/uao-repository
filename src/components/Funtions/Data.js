@@ -12,7 +12,7 @@ export const dataUser = {
             linkLinkedIn: "",
             linkGithub: "",
             linkYoutube: "",
-            urlImage: "",
+            urlImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Blank_flag.svg/1280px-Blank_flag.svg.png",
             Repositories: [
             ]
         }
