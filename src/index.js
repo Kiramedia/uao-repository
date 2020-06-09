@@ -8,7 +8,7 @@ import './index.css';
 import Routes from './routes';
 
 render(
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <Routes/>
   </Router>,
   document.getElementById('root')
