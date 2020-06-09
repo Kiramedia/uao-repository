@@ -47,7 +47,7 @@ class Nav extends React.Component {
 
         if(this.state.sessionState){
             return <NavIcons />;
-        }else if(!localStorage.getItem("loginToken")){
+        }else{
             return <NavButtons />;
         }
     }
