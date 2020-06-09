@@ -8,7 +8,7 @@ import './index.css';
 import Routes from './routes';
 
 render(
-  <Router basename={"/uao-repository/"}>
+  <Router>
     <Routes/>
   </Router>,
   document.getElementById('root')

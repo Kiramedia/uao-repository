@@ -13,13 +13,13 @@ const Routes = () => {
     return (
         <App>
             <Switch>
-                <Route exact path="/uao-repository/" component={Home}/>
-                <Route exact path="/uao-repository/home" component={Home}/>
-                <Route exact path="/uao-repository/search" component={Search} />
-                <Route exact path="/uao-repository/myrepositories/:id" component={MyRepositories} />
-                <Route exact path="/uao-repository/profile/:id" component={Profile}/>
-                <Route exact path="/uao-repository/repository/:id/:id" component={Repository}/>
-                <Home><Route exact path="/uao-repository/home/login"><Login/></Route></Home>
+                <Route exact path="/" component={Home}/>
+                <Route exact path="/home" component={Home}/>
+                <Route exact path="/search" component={Search} />
+                <Route exact path="/myrepositories/:id" component={MyRepositories} />
+                <Route exact path="/profile/:id" component={Profile}/>
+                <Route exact path="/repository/:id/:id" component={Repository}/>
+                <Home><Route exact path="/home/login"><Login/></Route></Home>
             </Switch>
         </App>
     );
