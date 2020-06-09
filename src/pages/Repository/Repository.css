@@ -204,5 +204,5 @@ la última en un tamaño de 600px y ajustar los tabs una encima de otra */
 
 .tab-content img{
     height: 20rem;
-    margin-right: 1rem;
+    margin: 0rem 1rem 1rem 0rem;
 }
