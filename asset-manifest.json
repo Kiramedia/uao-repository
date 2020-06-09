@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/uao-repository/static/css/main.546e9124.chunk.css",
+    "main.js": "/uao-repository/static/js/main.ac60bbcd.chunk.js",
+    "main.js.map": "/uao-repository/static/js/main.ac60bbcd.chunk.js.map",
+    "runtime-main.js": "/uao-repository/static/js/runtime-main.fadc6290.js",
+    "runtime-main.js.map": "/uao-repository/static/js/runtime-main.fadc6290.js.map",
+    "static/js/2.4b6f87fa.chunk.js": "/uao-repository/static/js/2.4b6f87fa.chunk.js",
+    "static/js/2.4b6f87fa.chunk.js.map": "/uao-repository/static/js/2.4b6f87fa.chunk.js.map",
+    "index.html": "/uao-repository/index.html",
+    "precache-manifest.b18b1a0fe0dca74c4571ffc9debc433a.js": "/uao-repository/precache-manifest.b18b1a0fe0dca74c4571ffc9debc433a.js",
+    "service-worker.js": "/uao-repository/service-worker.js",
+    "static/css/main.546e9124.chunk.css.map": "/uao-repository/static/css/main.546e9124.chunk.css.map",
+    "static/js/2.4b6f87fa.chunk.js.LICENSE.txt": "/uao-repository/static/js/2.4b6f87fa.chunk.js.LICENSE.txt",
+    "static/media/Readme.txt": "/uao-repository/static/media/Readme.4978eca0.txt",
+    "static/media/about.jpg": "/uao-repository/static/media/about.b69dda3f.jpg",
+    "static/media/add-repository.png": "/uao-repository/static/media/add-repository.caa5c020.png",
+    "static/media/home.png": "/uao-repository/static/media/home.89743e16.png",
+    "static/media/Login.css": "/uao-repository/static/media/logo-repository-login.3f7dfbe5.png",
+    "static/media/logouao.png": "/uao-repository/static/media/logouao.a3c2ab86.png",
+    "static/media/notification.png": "/uao-repository/static/media/notification.154807f7.png",
+    "static/media/profile-image.jpg": "/uao-repository/static/media/profile-image.6a33e358.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fadc6290.js",
+    "static/js/2.4b6f87fa.chunk.js",
+    "static/css/main.546e9124.chunk.css",
+    "static/js/main.ac60bbcd.chunk.js"
+  ]
+}
