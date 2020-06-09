@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "30cf059e74f3d8a5d52a3b557afbc7cd",
+    "revision": "cc465acc86e2fbbf6d85cb0d8881dae2",
     "url": "/uao-repository/index.html"
   },
   {
-    "revision": "ead0f457b932002b47e8",
+    "revision": "1d6c7361b77f82746261",
     "url": "/uao-repository/static/css/main.89541ced.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/uao-repository/static/js/2.4b6f87fa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ead0f457b932002b47e8",
-    "url": "/uao-repository/static/js/main.c947015f.chunk.js"
+    "revision": "1d6c7361b77f82746261",
+    "url": "/uao-repository/static/js/main.ac60bbcd.chunk.js"
   },
   {
     "revision": "3a84ffe5ffe13ec3b47d",
