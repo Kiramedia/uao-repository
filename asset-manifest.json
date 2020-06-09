@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/uao-repository/static/css/main.89541ced.chunk.css",
-    "main.js": "/uao-repository/static/js/main.724a3b80.chunk.js",
-    "main.js.map": "/uao-repository/static/js/main.724a3b80.chunk.js.map",
+    "main.js": "/uao-repository/static/js/main.c8ecc2a0.chunk.js",
+    "main.js.map": "/uao-repository/static/js/main.c8ecc2a0.chunk.js.map",
     "runtime-main.js": "/uao-repository/static/js/runtime-main.fadc6290.js",
     "runtime-main.js.map": "/uao-repository/static/js/runtime-main.fadc6290.js.map",
     "static/js/2.4b6f87fa.chunk.js": "/uao-repository/static/js/2.4b6f87fa.chunk.js",
     "static/js/2.4b6f87fa.chunk.js.map": "/uao-repository/static/js/2.4b6f87fa.chunk.js.map",
     "index.html": "/uao-repository/index.html",
-    "precache-manifest.ee13a26f97b33bfdcf330a15db1dd80f.js": "/uao-repository/precache-manifest.ee13a26f97b33bfdcf330a15db1dd80f.js",
+    "precache-manifest.a9be35be2da7f03645d38bd63d0602de.js": "/uao-repository/precache-manifest.a9be35be2da7f03645d38bd63d0602de.js",
     "service-worker.js": "/uao-repository/service-worker.js",
     "static/css/main.89541ced.chunk.css.map": "/uao-repository/static/css/main.89541ced.chunk.css.map",
     "static/js/2.4b6f87fa.chunk.js.LICENSE.txt": "/uao-repository/static/js/2.4b6f87fa.chunk.js.LICENSE.txt",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.fadc6290.js",
     "static/js/2.4b6f87fa.chunk.js",
     "static/css/main.89541ced.chunk.css",
-    "static/js/main.724a3b80.chunk.js"
+    "static/js/main.c8ecc2a0.chunk.js"
   ]
 }
